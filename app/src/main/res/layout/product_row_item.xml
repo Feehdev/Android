@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cat_background"
+    android:layout_width="90"
+    android:layout_height="20"
+    android:layout_gravity="top"
+    android:background="@drawable/ic_cat_bg"
+    android:backgroundTint="#B6B3B3"
+    android:visibility="visible">
+
+    <TextView
+        android:id="@+id/cat_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/allerta"
+        android:gravity="top"
+        android:text="MAIS VENDIDOS"
+        android:textColor="#000000"
+        android:textSize="7sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
